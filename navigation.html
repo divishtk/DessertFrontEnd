@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    * {
+
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+
+    }
+
+    .menu {
+
+        background-color: rgb(109, 250, 250);
+        margin: 18px 12px;
+        border-radius: 23px;
+
+    }
+
+    .menu ul {
+
+        overflow: hidden;
+
+    }
+
+
+    .menu li {
+
+        float: left;
+        list-style: none;
+        margin: 13px 20px;
+        font-size: 1em;
+
+    }
+
+    .menu li,
+    a {
+
+        text-decoration: none;
+        padding: 3px 3px;
+        color: rgb(19, 93, 161);
+
+    }
+
+    .searchbar {
+
+        float: right;
+        color: white;
+        padding: 8px 16px;
+    }
+
+
+    .searchbar input {
+        border: 2px solid rgb(13, 128, 57);
+        border-radius: 14px;
+        padding: 7px 26px;
+        width: 160px;
+
+
+
+    }
+
+/*Hide Scroll bars*/
+
+.container {
+        width: 1200px;
+        height: 700px;
+        border: 2px solid rgb(81, 218, 223);
+        margin: 10px auto;
+        border-top-left-radius:67px ;
+        border-bottom-right-radius:67px;
+        
+        
+        }
+
+       
+
+        .items {
+            
+            border: 2px solid rgb(81, 218, 223);
+            margin:15px;
+            padding:13px 13px;
+            
+            
+         
+
+        }
+        #book1
+        {
+
+            width:40%;
+            height: 100px;
+            margin-left:66px;
+            float: left;
+            padding: 100px;
+            
+
+        }
+
+        #book1 p
+        {
+            padding-left: 59px;
+
+        }
+        #book2 p
+        {
+            padding-left: 59px;
+
+        }
+
+        #book2
+        {
+            width:40%;
+            height: 100px;
+            float: right;
+            margin: 13px 43px;
+            padding: 100px;
+            
+
+        }
+
+        #book3
+        {
+            width:40%;
+            height: 100px;
+            clear: both;
+            float: left;
+            padding: 100px;
+            margin: 27px 68px;
+
+        }
+
+        #book3 p
+        {
+            padding-left: 59px;
+
+        }
+
+
+        #book4
+        {
+            width:40%;
+            height: 100px;
+  
+            float: right;
+            margin: 32px 42px;
+    padding: 97px 98px;
+        }
+
+        #book4 p
+        {
+            padding-left: 59px;
+
+        }
+
+
+       
+
+
+</style>
+
+<body>
+
+
+    <header>
+        <nav>
+
+
+            <div class="menu">
+
+
+                <ul>
+
+                    <li><a href="#"></a>Home</a></li>
+                    <li><a href="#"></a>Dessert</a></li>
+                    <li><a href="#"></a>Pastries</a></li>
+                    <li><a href="#"></a>Contact Us</a></li>
+                    <li><a href="#"></a>About us</a></li>
+
+
+                    <div class="searchbar">
+
+                        <input type="text" placeholder="Search Here">
+
+                    </div>
+
+                </ul>
+
+
+            </div>
+
+            <div class="container">
+
+
+                <div class="items" id="book1">
+                        <p>This is AngularBook </p>
+
+                </div>
+                <div class="items" id="book2">
+                    <p>This is Node JS</p>
+
+                </div>
+                <div class="items" id="book3">
+                    <p>This is Mongo DB</p>
+
+                </div>
+               
+
+                <div class="items" id="book4">
+                    <p>This is React JS</p>
+
+                </div>
+               
+
+            </div>
+
+
+        </nav>
+
+
+
+    </header>
+
+</body>
+
+</html>

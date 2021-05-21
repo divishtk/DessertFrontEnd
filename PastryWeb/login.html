@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style/style.css" type="text/css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap" rel="stylesheet" />
+
+    <style>
+
+      *
+      {
+
+        box-sizing: border-box;
+
+      }
+        body {
+            background: url('images/canva.png');
+            width: 100%;
+            height: 100vh;
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+            padding: 10px 10px;
+
+
+
+
+        }
+
+       
+
+
+        .container h2 {
+
+            width: 29%;
+            display: block;
+            margin: 70px 550px;
+            font-size: 40px;
+            font-weight:bolder;
+            
+            
+
+
+        }
+      
+
+        .form-group {
+
+          /*  border: 1px solid red;*/
+            width: 36%;
+            display: block;
+            margin: 210px auto;
+            box-shadow: 0 0 12 rgb(58, 218, 218);
+            position: absolute;
+            right: 450px;
+            top: 110px;
+
+
+
+
+
+        }
+
+        .form-group input,
+        textarea {
+
+            padding: 10px;
+            margin: 4px 20px;
+            border: 0;
+            display: block;
+            text-align: center;
+            border: 1px solid rgb(130, 221, 233);
+
+
+            padding: 6px 5rem;
+            font-family: "Roboto Mono", monospace;
+
+            border-radius: 0.5rem;
+            outline: none;
+
+
+        }
+
+        
+        button
+        {
+
+            font-size: medium;
+            display: inline-flex;
+            margin: 10px 135px;
+            background-color: aqua;
+            border: 0;
+            border-radius:10px ;
+            padding: 1px 12px;
+             font-family: "Roboto Mono", monospace;
+             cursor: pointer;
+             
+
+        }
+
+
+        .butt:hover
+        {
+            background-color: rgb(36, 228, 228);
+            box-shadow: 2 5 9  rgb(58, 218, 218);
+
+
+        }
+        button a
+        {
+
+            padding:4px 10px;
+
+
+        }
+
+
+        .cup{
+            display: block;
+            position: absolute;
+            right: 0;
+
+
+
+        }
+        .foot {
+
+padding:2px 2px;
+width: 90%;
+text-align: center;
+justify-content: center;
+display: block;
+margin:700px auto;
+color:rgb(19, 190, 190);
+background-color:#CDFDFF;
+border-radius: 10px;
+border-top-left-radius:59px ;
+box-shadow: 0 0 0 0 rgb(58, 218, 218);
+
+}
+
+.foot button
+{
+
+  margin: 15px;
+
+}
+
+.foot input
+{
+
+    border: 0;
+          position: relative;
+          display: inline-flex;
+          align-items: center;
+      height: 2.5rem;
+      padding: 0 3rem;
+      font-family: "Roboto Mono", monospace;
+      margin: 7px;
+      border-radius: 0.5rem;
+      outline: none;
+}
+
+
+        
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h2><b>Login</b></h2>
+
+
+        <div class="cup">
+
+            <img src="/final_cup.png">
+        
+      
+          </div>
+      
+
+        <div class="form-group">
+
+            <form action="#" method="POST">
+
+          
+            <label>Email</label>
+            <input type="email" name="name" placeholder="Enter Email Id" required></br>
+            <label>Password</label>
+            <input type="password" name="name" placeholder="Enter Email Id" required></br>
+
+            <button class="butt"><a href="">Login</a></button>
+         
+
+        </form>
+
+        </div>
+
+        
+    </div>
+    <div class="foot">
+
+        <h2>Contact Us</h2>
+
+
+        <form action="#">
+
+            <div class="forms">
+        <input type ="text" name="name" placeholder="Enter Name" required></br>
+        <input type ="number" name="name" placeholder="Enter Phone Number" required></br>
+        <input type ="email" name="name" placeholder="Enter Email Id" required></br>
+    </div>
+
+
+      <button class="btn">Submit</button>
+
+    </form>
+
+    </div>
+</body>
+
+</html>
